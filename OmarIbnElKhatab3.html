@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>تقديم أنفسكم - ثانوية عمر بن الخطاب</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6; 
+            margin: 0; 
+            padding: 0;
+            background-color: #eef2f3; /* نفس الخلفية المريحة */
+        }
+        header { 
+            /* نفس التدرج اللوني لتوحيد التصميم */
+            background: linear-gradient(to right, #2c3e50, #4ca1af); 
+            color: white; 
+            padding: 30px; 
+            text-align: center; 
+            border-bottom: 5px solid #1a252f;
+        }
+        nav { 
+            margin: 0; 
+            background: #fff; 
+            padding: 15px; 
+            border-bottom: 2px solid #ddd;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a { 
+            margin: 0 15px; 
+            text-decoration: none; 
+            color: #2980b9; 
+            font-weight: bold; 
+            padding: 5px 10px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #2980b9;
+            color: white;
+            border-radius: 5px;
+        }
+        
+        .container {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profile-card { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            width: 70%; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+            border: 2px solid #2c3e50;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #4ca1af;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق الجدول ليكون أرقى */
+        .info-table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 25px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .info-table td { 
+            padding: 15px; 
+            border-bottom: 1px solid #eee; 
+            text-align: right; 
+        }
+        .label { 
+            font-weight: bold; 
+            color: #2c3e50; 
+            width: 30%; 
+            background-color: #f1f1f1;
+        }
+
+        /* لمسة إضافية: تأثير عند تمرير الفأرة على صفوف الجدول */
+        tr:hover {
+            background-color: #f1f7ff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ثانوية عمر بن الخطاب</h1>
+    </header>
+
+    <nav>
+        <center>
+            <a href="OmarIbnElKhatab.html">الرئيسية</a>
+            <a href="OmarIbnElKhatab2.html">صفحة التسجيل (Page d'inscription)</a>
+            <a href="OmarIbnElKhatab3.html">تقديم أنفسكم</a>
+        </center>
+    </nav>
+
+    <div class="container">
+        <div class="profile-card">
+            <h2>من انا؟</h2>
+            <p>انا طالبة في ثانوية عمر بن الخطاب، قمنت بتصميم هذا الموقع كجزء من مشروعي المدرسي</p>
+            
+            <table class="info-table">
+                <tr>
+                    <td class="label">اسم الطالب:</td>
+                    <td>بن خليفة سلمى</td>
+                </tr>
+                <tr>
+                    <td class="label">القسم:</td>
+                    <td>جذع مشترك علوم 1</td>
+                </tr>
+                <tr>
+                    <td class="label">الهوايات:</td>
+                    <td>الرسم و البرمجة</td>
+                </tr>
+                <tr>
+                    <td class="label">الهدف:</td>
+                    <td>تعلم تطوير الويب وبناء مواقع مفيدة.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
